@@ -1,2 +1,58 @@
-.idea/
+# === Python 通用 ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheelhouse/
+.pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+
+# === 虚拟环境 ===
+venv/
+env/
+ENV/
 .venv/
+
+# === IDE 配置 ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === macOS / Windows 系统文件 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 日志 & 运行时 ===
+logs/
+*.log
+*.pid
+*.seed
+
+# === 本地机密 / 配置覆盖 ===
+*.env
+config.local.yaml
+secrets/
+
+# === 数据与缓存（爬虫专场） ===
+data/
+temp/
+.cache/
+*.sqlite
+*.db
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+
+# === 如果以后上异步 & Redis ===
+# redis.dump
+# celerybeat-schedule
