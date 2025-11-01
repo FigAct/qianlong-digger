@@ -56,3 +56,6 @@ temp/
 # === 如果以后上异步 & Redis ===
 # redis.dump
 # celerybeat-schedule
+
+# =====测试文件夹=====
+_test/
