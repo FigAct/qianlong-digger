@@ -13,3 +13,4 @@
 | `parsers/`   | **HTML/JSON 解析**（一行行 yield 字典） | `parser_douban.py` `parser_novel.py` | ✅ 新建一个 Parser |
 | `pipeline/`  | **输出落地**（CSV/JSON/MySQL）       | `csv_pipe.py` `json_pipe.py`         | ❌ 不动（可插拔）     |
 | `utils/`     | **工具 & 日志**（公共函数、日志格式）         | `log.py` `helper.py`                 | ❌ 不动          |
+| `alone`      | **非模块化爬虫**                     | `1.py`                               | `独立爬虫`        |

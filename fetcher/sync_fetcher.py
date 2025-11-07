@@ -1,6 +1,13 @@
 import random, time, requests
 
 class SyncFetcher:
+    """
+        发出网络请求。
+
+        Args:
+                delay: 设置间隔时间
+
+        """
     def __init__(self, delay=1):
         self.delay = delay
 

@@ -1,0 +1,7 @@
+name: hello
+start_urls:
+  - https://httpbin.org/html   # 返回一段静态 HTML，自带 h1 标题
+max_pages: 1
+delay: 1
+save_path:
+  - ./save
