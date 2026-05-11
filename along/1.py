@@ -1,8 +1,13 @@
-import requests, lxml
+import initlogger
 
-def fetcher(url, delay = 0):
-    _HEADERS = {
-        # 豆瓣最吃 UA，不留直接 418
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    }
-    _delay = delay
+loger = initlogger.get(__name__)
+
+def main():
+    loger.info("info")
+    loger.debug("debug")
+    loger.warning("warning")
+    loger.error("error")
+    loger.critical("critical")
+
+if __name__ == '__main__':
+    main()

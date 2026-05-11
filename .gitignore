@@ -59,3 +59,9 @@ temp/
 
 # =====测试文件夹=====
 _test/
+# 独立爬虫的日志，图片，源码存放位置
+along/image
+along/log
+along/save_html
+*.csv
+along/temp_2.py
